@@ -1,5 +1,5 @@
 import React from "react"
-import MyMap from "../components/map"
+import MyMap from "./Map"
 
 const StyledMap = () => (
   <div
