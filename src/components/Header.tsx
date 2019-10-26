@@ -1,35 +1,22 @@
-import * as React from "react"
-import * as Background from "../../static/images/5.jpg"
-import { CSSProperties } from "react"
+import React, { FC } from "react"
+import { StyledHeaderDiv } from "./styles"
 
 type Props = {
   height: number
-  headerText: string
-  subText: string
+  headerText?: string
+  subText?: string
 }
 
-const Header: React.FC<Props> = props => {
+const Header: FC<Props> = props => {
   const {
     headerText = "Szita Bernadett",
     height,
     subText = "Klinikai szakpszichológus, relaxációs- és szimbólumterapeuta",
   } = props
   return (
-    <div
-      style={{
-        height: `${height}px`,
-        border: `1px solid white`,
-        margin: `2rem`,
-        padding: `5rem`,
-        textAlign: `center`,
-        backgroundImage: `url(${Background})`,
-        borderRadius: `0.5rem`,
-      }}
-    >
+    <StyledHeaderDiv height={height}>
       <h1
         style={{
-          textShadow: `2px grey`,
-          fontVariant: `small-caps`,
           fontSize: "4rem",
           textAlign: "center",
         }}
@@ -44,7 +31,7 @@ const Header: React.FC<Props> = props => {
       >
         {subText}
       </h4>
-    </div>
+    </StyledHeaderDiv>
   )
 }
 

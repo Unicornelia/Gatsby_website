@@ -7,7 +7,7 @@ import Footer from "../components/Footer"
 export default () => (
   <>
     <Layout>
-      <Header height={400}/>
+      <Header height={500}/>
       <StyledMap />
       <Footer />
     </Layout>

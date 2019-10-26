@@ -14,6 +14,12 @@ p {
   color: azure;
 }
 
+h1, h2 {
+  text-shadow: grey;
+  font-variant: small-caps;
+  font-size: 3rem;
+}
+
 a {
   color: whitesmoke;
   font-weight: 700;

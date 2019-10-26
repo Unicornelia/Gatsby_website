@@ -1,26 +1,10 @@
-import React from "react"
-import Background from "../../public/images/5.jpg"
+import React, { FC } from "react"
+import { StyledFooterDiv } from "./styles"
 
-const Footer = props => (
-  <div
-    style={{
-      border: `1px solid white`,
-      padding: `1rem`,
-      margin: `2rem`,
-      textAlign: `center`,
-      backgroundImage: `url(${Background})`,
-      borderRadius: `0.5rem`,
-    }}
-  >
-    <h1
-      style={{
-        textShadow: `2px grey`,
-        fontVariant: `small-caps`,
-      }}
-    >
-      RENDELÉS
-    </h1>
-    <div>
+const Footer: FC = () => (
+  <StyledFooterDiv>
+    <h2>Rendelés</h2>
+    <>
       <ul
         style={{
           listStyle: `none`,
@@ -38,8 +22,8 @@ const Footer = props => (
           <p>E-mailen: szitabernadett.info@gmail.com</p>
         </li>
       </ul>
-    </div>
-  </div>
+    </>
+  </StyledFooterDiv>
 )
 
 export default Footer
