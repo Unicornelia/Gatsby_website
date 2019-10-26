@@ -22,7 +22,7 @@ export const StyledHeaderDiv = styled("div")<HeaderProps>(
     width: " 95%",
     justifyContent: "center",
     border: `1px solid white`,
-    margin: `2rem`,
+    margin: `0 2rem 2rem 2rem`,
     padding: `5rem`,
     textAlign: `center`,
     backgroundImage: `url(${Background})`,

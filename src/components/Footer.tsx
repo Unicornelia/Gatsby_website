@@ -18,8 +18,8 @@ const Footer: FC = () => (
         </li>
         <li>
           <h3>Bejelentkezés: </h3>
-          <p>Telefonon: +36 20 284 1718 (munkanapokon 9.00-20.00)</p>
-          <p>E-mailen: szitabernadett.info@gmail.com</p>
+          <p>Telefonon: <strong>+36 20 284 1718</strong> (munkanapokon 9.00-20.00)</p>
+          <p>E-mailen: <a href = "mailto: szitabernadett.info@gmail.com">szitabernadett.info@gmail.com</a></p>
         </li>
       </ul>
     </>

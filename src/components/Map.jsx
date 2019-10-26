@@ -5,8 +5,8 @@ class MyMap extends Component {
   render() {
     return (
       <Iframe
-        width="700"
-        height="450"
+        width="500"
+        height="300"
         frameborder="0"
         style={{ border: `0` }}
         allowfullscreen

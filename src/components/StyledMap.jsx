@@ -5,6 +5,7 @@ const StyledMap = () => (
   <div
     style={{
       display: `flex`,
+      width: '95%',
       justifyContent: `space-between`,
       margin: `2rem`,
       border: `1px solid white`,

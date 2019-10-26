@@ -16,14 +16,7 @@ const Header: FC<Props> = props => {
   return (
     <StyledHeaderDiv height={height}>
       <h1>{headerText}</h1>
-      <h4
-        style={{
-          textShadow: `2px grey`,
-          fontSize: `1.5rem`,
-        }}
-      >
-        {subText}
-      </h4>
+      <h4>{subText}</h4>
     </StyledHeaderDiv>
   )
 }
