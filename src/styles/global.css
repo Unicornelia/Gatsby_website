@@ -32,8 +32,8 @@ h4 {
   font-size: 1.5rem;
 }
 
-a {
-  color: whitesmoke;
+a, Link {
+  color: lightgoldenrodyellow;
   font-weight: 700;
   text-decoration: none;
   transition-timing-function: cubic-bezier(0, 0, 1, 1);
@@ -45,6 +45,6 @@ a:hover {
   -webkit-stroke-width: 6px;
   -webkit-stroke-color: #061013;
   -webkit-fill-color: #ffffff;
-  color: blanchedalmond;
+  color: #b1faff;
   text-shadow: 2px 0 20px rgb(174, 226, 247);
 }

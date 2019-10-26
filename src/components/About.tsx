@@ -1,5 +1,6 @@
 import React, { FC } from "react"
 import { StyledElementDiv, StyledElementDivLeftAligned } from "./styles"
+import { Link } from "gatsby"
 
 type AboutProps = {
   maxChars: number
@@ -11,13 +12,14 @@ const About: FC<AboutProps> = props => {
   if (maxChars == 250) {
     return (
       <StyledElementDivLeftAligned>
-        <h1>Magamról</h1>
+        <h4>Magamról</h4>
         <p>
           Szita Bernadett klinikai szakpszichológus, relaxációs- és
           szimbólumterapeuta vagyok. Pszichológus diplomámat az Eötvös Loránd
           Tudományegyetemen, klinikai és mentálhigiéniai szakpszichológus
           szakvizsgámat a Semmelweis Egyetemen szereztem meg.
         </p>
+        <Link to="/about/">Bővebben</Link>
       </StyledElementDivLeftAligned>
     )
   } else {
