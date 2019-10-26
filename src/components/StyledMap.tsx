@@ -23,6 +23,7 @@ const StyledMap = () => (
     <div
       style={{
         display: `flex`,
+        flexDirection: 'column',
         padding: `2rem`,
         margin: `2rem`,
       }}

@@ -2,6 +2,9 @@ import styled from "@emotion/styled"
 import Background from "../images/5.jpg"
 
 export const StyledFooterDiv = styled("div")({
+  display: 'flex',
+  flexDirection: 'column',
+  width: " 95%",
   border: "1px solid white",
   padding: "1rem",
   margin: "2rem",
@@ -38,6 +41,7 @@ export const StyledLayoutContainer = styled("div")({
 export const StyledElementDiv = styled('div')({
   padding: `2rem`,
   margin: `2rem`,
+  width: " 95%",
   border: `1px solid white`,
   borderRadius: `0.5rem`,
 })
@@ -45,6 +49,7 @@ export const StyledElementDiv = styled('div')({
 export const StyledElementDivLeftAligned = styled('div')({
   display: 'flex',
   flexDirection: 'column',
+  width: " 95%",
   padding: `2rem`,
   margin: `2rem`,
   border: `1px solid white`,
@@ -55,6 +60,7 @@ export const StyledElementDivLeftAligned = styled('div')({
 export const StyledElementDivRightAligned = styled('div')({
   display: 'flex',
   flexDirection: 'column',
+  width: " 95%",
   padding: `2rem`,
   margin: `2rem`,
   border: `1px solid white`,
