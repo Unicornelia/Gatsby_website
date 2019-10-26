@@ -7,9 +7,7 @@ import StyledMap from "../components/StyledMap"
 export default () => (
   <Layout>
     <Header
-      headerText="Szita Bernadett"
-      subText="Klinikai szakpszichológus, relaxációs- és szimbólumterapeuta"
-      headerPadding="5rem"
+      height={300}
     />
     <StyledMap/>
     <Footer/>

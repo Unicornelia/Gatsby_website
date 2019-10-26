@@ -6,9 +6,7 @@ import Footer from "../components/Footer"
 export default () => (
   <Layout>
     <Header
-      headerText="Szita Bernadett"
-      subText="Klinikai szakpszichológus, relaxációs- és szimbólumterapeuta"
-      headerPadding="5rem"
+      height={300}
     />
     <div
       style={{

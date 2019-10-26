@@ -1,7 +1,7 @@
 import React from "react"
 import Background from "../../public/images/5.jpg"
 
-const Footer =props => (
+const Footer = props => (
   <div
     style={{
       border: `1px solid white`,
