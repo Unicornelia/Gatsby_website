@@ -14,7 +14,7 @@ const ListLink = props => (
 )
 
 const NavComponent = () => (
-  <div style={{ padding: `1rem` }}>
+  <div style={{ padding: `1rem 2rem 0 1rem` }}>
     <div className="left-nav">
       <ul style={{ listStyle: `none`, float: `left` }}>
         <ListLink to="/">Kezdőlap</ListLink>

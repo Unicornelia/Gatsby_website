@@ -1,6 +1,6 @@
 html {
   background-color: #0a2a37;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body,
@@ -12,6 +12,8 @@ h5,
 h6,
 p {
   color: azure;
+  width: 100%;
+  margin: 1rem;
 }
 
 h1, h2 {
@@ -34,65 +36,5 @@ a:hover {
   -webkit-stroke-color: #061013;
   -webkit-fill-color: #ffffff;
   color: blanchedalmond;
-  text-shadow: 2px 0px 20px rgb(174, 226, 247);
-}
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-}
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px), (max-width: 1024px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  html {
-    font-size: 16px;
-  }
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-  html {
-    font-size: 12px;
-  }
+  text-shadow: 2px 0 20px rgb(174, 226, 247);
 }
