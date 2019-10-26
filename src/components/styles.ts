@@ -1,5 +1,5 @@
 import styled from "@emotion/styled"
-import Background from "../../static/images/5.jpg"
+import Background from "../images/5.jpg"
 
 export const StyledFooterDiv = styled("div")({
   border: "1px solid white",
@@ -33,4 +33,31 @@ export const StyledHeaderDiv = styled("div")<HeaderProps>(
 export const StyledLayoutContainer = styled("div")({
   display: "flex",
   flexDirection: 'column',
+})
+
+export const StyledElementDiv = styled('div')({
+  padding: `2rem`,
+  margin: `2rem`,
+  border: `1px solid white`,
+  borderRadius: `0.5rem`,
+})
+
+export const StyledElementDivLeftAligned = styled('div')({
+  display: 'flex',
+  flexDirection: 'column',
+  padding: `2rem`,
+  margin: `2rem`,
+  border: `1px solid white`,
+  borderRadius: `0.5rem`,
+  alignContent: 'left',
+})
+
+export const StyledElementDivRightAligned = styled('div')({
+  display: 'flex',
+  flexDirection: 'column',
+  padding: `2rem`,
+  margin: `2rem`,
+  border: `1px solid white`,
+  borderRadius: `0.5rem`,
+  alignContent: 'right',
 })
