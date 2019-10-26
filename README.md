@@ -6,6 +6,6 @@ The project uses the the hello-world gatsby boilerplate. This starter ships with
 
 - [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/) to create a new site using Gatsby
 - [React](https://reactjs.org/)
-- [Surge](https://surge.sh/) (for deploying fast)
+- [Netlify](https://app.netlify.com) (for deploying fast)
 - Testing: 
 
