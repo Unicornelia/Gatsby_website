@@ -3,7 +3,7 @@ import { StyledElementDiv, StyledElementDivLeftAligned } from "./styles"
 import { Link } from "gatsby"
 
 type AboutProps = {
-  maxChars: number
+  maxChars?: number
 }
 
 const About: FC<AboutProps> = props => {

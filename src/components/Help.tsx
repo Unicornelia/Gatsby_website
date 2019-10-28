@@ -3,7 +3,7 @@ import { StyledElementDiv } from "./styles"
 import { Link } from "gatsby"
 
 type HelpProps = {
-  maxChars: number
+  maxChars?: number
 }
 
 const Help: FC<HelpProps> = props => {
@@ -33,7 +33,7 @@ const Help: FC<HelpProps> = props => {
         <h1>Amiben segithetek</h1>
         <ol>
           <li>
-            <a target="_blank" href="meddoseg.pdf">
+            <a target="_blank" href="../../src/meddoseg.pdf">
               Terméketlenség, asszisztált reprodukciós beavatkozás kapcsán
               jelentkező pszichés panaszok
             </a>
@@ -42,9 +42,9 @@ const Help: FC<HelpProps> = props => {
             Várandóssággal, szüléssel, anyaszereppel kapcsolatos problémák
           </li>
           <li>
-            <a target="_blank" href="szules.html">
+            <Link to="birthAndPregnancy">
               Terhesség alatti vagy szülés utáni szorongás, lehangoltság
-            </a>
+            </Link>
           </li>
           <li>
             <a target="_blank" href="terhesseg.html">

@@ -3,7 +3,7 @@ import React, { FC } from "react"
 import { Link } from "gatsby"
 
 type HealthProps = {
-  maxChars: number
+  maxChars?: number
 }
 
 const Health: FC<HealthProps> = props => {
@@ -32,7 +32,7 @@ const Health: FC<HealthProps> = props => {
         <h1>Női egészségpszichológia</h1>
         <ol>
           <li>
-            <a target="_blank" href="meddoseg.pdf">
+            <a target="_blank" href="../../src/meddoseg.pdf">
               Terméketlenség, asszisztált reprodukciós beavatkozás kapcsán
               jelentkező pszichés panaszok
             </a>
@@ -41,9 +41,9 @@ const Health: FC<HealthProps> = props => {
             Várandóssággal, szüléssel, anyaszereppel kapcsolatos problémák
           </li>
           <li>
-            <a target="_blank" href="szules.html">
+            <Link to="birthAndPregnancy">
               Terhesség alatti vagy szülés utáni szorongás, lehangoltság
-            </a>
+            </Link>
           </li>
           <li>
             <a target="_blank" href="terhesseg.html">
